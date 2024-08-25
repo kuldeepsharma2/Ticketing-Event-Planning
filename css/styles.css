@@ -1,0 +1,76 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Wrapper to handle full page layout */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header margin */
+header {
+    margin-bottom: 20px;
+}
+
+/* Flexible content area */
+.flex-fill {
+    flex: 1;
+}
+
+/* Events container styling */
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+/* Event card styling */
+.event-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 300px;
+    transition: transform 0.2s;
+}
+
+/* Event card hover effect */
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+/* Event card title */
+.event-card h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Event card paragraph */
+.event-card p {
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+/* Footer styling */
+.footer {
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto;
+    background-color: #343a40; /* bg-dark */
+    color: white; /* text-white */
+}
